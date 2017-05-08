@@ -90,16 +90,16 @@
 
 
 
-<meta name="description" content="IP协议##一 服务特点：尽力而为的、无连接的 ###1. 尽力而为：    表示它可能发生一些错误，它不会提供任何保证，更不会提供任何可靠性，一切都需要它的上层服务来提供可靠性 ###2. 无连接：    表示IP数据报可能不会按序来传递，也可能在复制过程中出现差错。 ##二 IPV4和IPV6的头部    1.版本字段(4bit,ipv4为4,ipv6为6，二者唯一相同的字段) 2.IHL(I">
+<meta name="description" content="IP协议##一 服务特点：尽力而为的、无连接的 1. 尽力而为：表示它可能发生一些错误，它不会提供任何保证，更不会提供任何可靠性，一切都需要它的上层服务来提供可靠性 2. 无连接：表示IP数据报可能不会按序来传递，也可能在复制过程中出现差错。 二 IPV4和IPV6的头部1.版本字段(4bit,ipv4为4,ipv6为6，二者唯一相同的字段)  2.IHL(Internet头部长度)ipv4头部长">
 <meta property="og:type" content="article">
-<meta property="og:title" content="IP">
+<meta property="og:title" content="IP 协议">
 <meta property="og:url" content="http://yoursite.com/2017/05/08/IP/index.html">
 <meta property="og:site_name" content="狼叔博客">
-<meta property="og:description" content="IP协议##一 服务特点：尽力而为的、无连接的 ###1. 尽力而为：    表示它可能发生一些错误，它不会提供任何保证，更不会提供任何可靠性，一切都需要它的上层服务来提供可靠性 ###2. 无连接：    表示IP数据报可能不会按序来传递，也可能在复制过程中出现差错。 ##二 IPV4和IPV6的头部    1.版本字段(4bit,ipv4为4,ipv6为6，二者唯一相同的字段) 2.IHL(I">
-<meta property="og:updated_time" content="2017-05-08T08:19:58.691Z">
+<meta property="og:description" content="IP协议##一 服务特点：尽力而为的、无连接的 1. 尽力而为：表示它可能发生一些错误，它不会提供任何保证，更不会提供任何可靠性，一切都需要它的上层服务来提供可靠性 2. 无连接：表示IP数据报可能不会按序来传递，也可能在复制过程中出现差错。 二 IPV4和IPV6的头部1.版本字段(4bit,ipv4为4,ipv6为6，二者唯一相同的字段)  2.IHL(Internet头部长度)ipv4头部长">
+<meta property="og:updated_time" content="2017-05-08T08:52:36.496Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="IP">
-<meta name="twitter:description" content="IP协议##一 服务特点：尽力而为的、无连接的 ###1. 尽力而为：    表示它可能发生一些错误，它不会提供任何保证，更不会提供任何可靠性，一切都需要它的上层服务来提供可靠性 ###2. 无连接：    表示IP数据报可能不会按序来传递，也可能在复制过程中出现差错。 ##二 IPV4和IPV6的头部    1.版本字段(4bit,ipv4为4,ipv6为6，二者唯一相同的字段) 2.IHL(I">
+<meta name="twitter:title" content="IP 协议">
+<meta name="twitter:description" content="IP协议##一 服务特点：尽力而为的、无连接的 1. 尽力而为：表示它可能发生一些错误，它不会提供任何保证，更不会提供任何可靠性，一切都需要它的上层服务来提供可靠性 2. 无连接：表示IP数据报可能不会按序来传递，也可能在复制过程中出现差错。 二 IPV4和IPV6的头部1.版本字段(4bit,ipv4为4,ipv6为6，二者唯一相同的字段)  2.IHL(Internet头部长度)ipv4头部长">
 
 
 
@@ -133,7 +133,7 @@
 
 
 
-  <title>IP | 狼叔博客</title>
+  <title>IP 协议 | 狼叔博客</title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -279,7 +279,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">IP</h1>
+          <h1 class="post-title" itemprop="name headline">IP 协议</h1>
         
 
         <div class="post-meta">
@@ -327,10 +327,11 @@
 
       
         <h1 id="IP协议"><a href="#IP协议" class="headerlink" title="IP协议"></a>IP协议</h1><p>##一 服务特点：尽力而为的、无连接的</p>
-<p>###1. 尽力而为：<br>    表示它可能发生一些错误，它不会提供任何保证，更不会提供任何可靠性，一切都需要它的上层服务来提供可靠性</p>
-<p>###2. 无连接：<br>    表示IP数据报可能不会按序来传递，也可能在复制过程中出现差错。</p>
-<p>##二 IPV4和IPV6的头部<br>    1.版本字段(4bit,ipv4为4,ipv6为6，二者唯一相同的字段)</p>
-<pre><code>2.IHL(Internet头部长度)ipv4头部长度(4bit:0到15个32位，表示最多个字节，这个限制导致了一些选项不可用p125)IPv6则没有这个选项，因为它是固定的40字节长度  
+<h3 id="1-尽力而为："><a href="#1-尽力而为：" class="headerlink" title="1. 尽力而为："></a>1. 尽力而为：</h3><pre><code>表示它可能发生一些错误，它不会提供任何保证，更不会提供任何可靠性，一切都需要它的上层服务来提供可靠性
+</code></pre><h3 id="2-无连接："><a href="#2-无连接：" class="headerlink" title="2. 无连接："></a>2. 无连接：</h3><pre><code>表示IP数据报可能不会按序来传递，也可能在复制过程中出现差错。
+</code></pre><h2 id="二-IPV4和IPV6的头部"><a href="#二-IPV4和IPV6的头部" class="headerlink" title="二 IPV4和IPV6的头部"></a>二 IPV4和IPV6的头部</h2><pre><code>1.版本字段(4bit,ipv4为4,ipv6为6，二者唯一相同的字段)
+
+2.IHL(Internet头部长度)ipv4头部长度(4bit:0到15个32位，表示最多个字节，这个限制导致了一些选项不可用p125)IPv6则没有这个选项，因为它是固定的40字节长度  
 
 3.ToS(Type of Server）服务类型字段8bit：现在被分为了两个字段：前6位为服务字段DS，后2位为显式拥塞通知字段或者指示位。（在数据报转发时特殊处理）
 
@@ -369,12 +370,12 @@ IPv4支持分片，因此它有4个字节的32位的数据来保存这些信息�
 IPv4有一个TTL，生存期，而在6中， 它叫做跳数限制。
 IPv4有头部校验和，而IPv6没有
 IPv6有一个“下一个头部 ”字段，8位，但是IPv4则没有。它用来说明，IPv6头部之后，其他的扩展头部的存在和类型，或者是其他协议类型头部。
-</code></pre><p>##三、IPv6扩展头部</p>
-<pre><code>IPv6形成的头部链，开头是IPv6头部，后面则是一些扩展头部、以及是一些其他的协议头部。
+</code></pre><h2 id="三、IPv6扩展头部"><a href="#三、IPv6扩展头部" class="headerlink" title="三、IPv6扩展头部"></a>三、IPv6扩展头部</h2><pre><code>IPv6形成的头部链，开头是IPv6头部，后面则是一些扩展头部、以及是一些其他的协议头部。
 
 HD:H是分组经过的每一个路由器处理的选项；而D是目的地选项头部。
-</code></pre><p>###1.  IPv6选项：<br>    如果选项存在，可以放入逐跳选项HOPORT和目的地选项(它携带在HD扩展头部中)。它们有相同的格式：</p>
-<pre><code>**TLV type-length-value**
+</code></pre><h3 id="1-IPv6选项："><a href="#1-IPv6选项：" class="headerlink" title="1.  IPv6选项："></a>1.  IPv6选项：</h3><pre><code>如果选项存在，可以放入逐跳选项HOPORT和目的地选项(它携带在HD扩展头部中)。它们有相同的格式：
+
+**TLV type-length-value**
 
 1. IPv6选项需要与8字节对齐，因此有填充1和填充n来填充
 2. 之前説过的**超长数据报**，
@@ -383,14 +384,14 @@ HD:H是分组经过的每一个路由器处理的选项；而D是目的地选项
 5. 快速启动
 6. CALIPSO：安全相关的，
 7. 家乡地址
-</code></pre><p>###2. 其它IPv6扩展头部<br>路由头部：分RH0（被放弃了已经）和RH2：它可以指定数据报通过网络的路径<br>    先聊聊RH0，它已经被放弃了（出于安全方面的考虑），而RH2则被定义为与移动IP共同使用<br>    注意，在RH0中，IPv6基本头部中的目的IP地址字段被修改为包含数据报转发的下一转发地址</p>
+</code></pre><h3 id="2-其它IPv6扩展头部"><a href="#2-其它IPv6扩展头部" class="headerlink" title="2. 其它IPv6扩展头部"></a>2. 其它IPv6扩展头部</h3><p>路由头部：分RH0（被放弃了已经）和RH2：它可以指定数据报通过网络的路径<br>    先聊聊RH0，它已经被放弃了（出于安全方面的考虑），而RH2则被定义为与移动IP共同使用<br>    注意，在RH0中，IPv6基本头部中的目的IP地址字段被修改为包含数据报转发的下一转发地址</p>
 <pre><code>路由头部在转发的过程中的变化也是挺有意思的。首先，需要注意的是，指定的路径不用是一整条的，而是可以只指定一部分需要经过的路由即可，这样，它需要根据正常的路由规则到IPv6头部中的dest，当到达了这个dest之后，根据left，即剩余部分的值来确定下一跳的IPv6地址，然后将这个地址与IPv6头部中的dest交换，而交换后的这个在路由头部中的地址就已经没有用了，而这时候，并不会把它“删除”，而是递减这个left，告诉它..下一次交换就应该指向下一个路由了。
 
 另外，RH0的问题，见p139：它允许在路由头部的多个位置指定相同地址。这可能导致流量在一条特定路径上的两台或者多台主机或路由器之间重复转发。大量的流量负载可能会在网络中汕头特定路径创建，与相同路径上的其他流量竞争带宽而造成干扰。
 </code></pre><p>分片头部：以前説的IPv6不进行分片，其实是不对的。直接地来説，应该是它的分片相关字段不出现的IP头部，而是作为了扩展头部出现了。另外，它的分片方式和IPv4有极大的不同。见p139 </p>
-<p>####2.分片头部的格式：p140</p>
-<p>####3.分片的过程：<br>    首先，分片有不可分片部分和可分片部分的区分</p>
-<pre><code>然后，每个分片的内容为：原分组的不可分片部分的副本(需要修改的是它的负载长度字段，注意，分片头部8个字节也需要记在内，所有的头部都需要记录在内！)、一个分片头部（分片的偏移、标识符、M标志等，它8个字节）最后才是分片的载荷内容。
+<h4 id="2-分片头部的格式：p140"><a href="#2-分片头部的格式：p140" class="headerlink" title="2.分片头部的格式：p140"></a>2.分片头部的格式：p140</h4><h4 id="3-分片的过程："><a href="#3-分片的过程：" class="headerlink" title="3.分片的过程："></a>3.分片的过程：</h4><pre><code>首先，分片有不可分片部分和可分片部分的区分
+
+然后，每个分片的内容为：原分组的不可分片部分的副本(需要修改的是它的负载长度字段，注意，分片头部8个字节也需要记在内，所有的头部都需要记录在内！)、一个分片头部（分片的偏移、标识符、M标志等，它8个字节）最后才是分片的载荷内容。
 
 注意，偏移量是8字节为单位的，所以分片的长度应该也是以8字节作为边界进行的。最后一个分片可能不是，也可能是(反正这时候也不用去考虑它后面的偏移了)。
 
@@ -399,18 +400,20 @@ HD:H是分组经过的每一个路由器处理的选项；而D是目的地选项
 分片过程增加的字节数为：（分片数量-1）*不可分片部分的长度+分片数量*8（分片头部的长）
 
 链路层上的开销：还包括一个14字节的头部和4字节的CRC共18字节，每多一个分片就多这些字节。。
-</code></pre><p>##四、IP 转发</p>
-<pre><code>1. 如果直接相连的主机（点到点）或者共享网络（以太网），将直接发送到目的地
+</code></pre><h2 id="四、IP-转发"><a href="#四、IP-转发" class="headerlink" title="四、IP 转发"></a>四、IP 转发</h2><pre><code>1. 如果直接相连的主机（点到点）或者共享网络（以太网），将直接发送到目的地
 2. 否则，发送到默认路由器
 
 IP协议模块接收一个数据报，可以来自同一主要的一上层协议，如TCP,UDP等，也可以是来自网络接口的数据报。
 如果是后者，即是来自网络接口的数据报：IP层会先检查目的地址是否为自己的地址（或者是它可以接收其流量的一个其他地址，如IP广播或者组播地址），如果是，则将根据IP协议中的协议字段（IPv4中的协议字段，或者是IPv7中的下一头部字段指定的协议模块）来转交。否则，它不是转发给自己的，那么就根据IP层是一个路由器还是一个主机来确定下一步的操作了，如果是路由器，则可以转发。如果不是，可能会被默默地丢弃。
-</code></pre><p>###1. 转发表信息：<br>    目的地：默认路由可设置为0，完整的路由可设为完整长度的IP地址。<br>    掩码：与数据报目的IP地址按位与，然后与转发表条目中的目的地进行比较。<br>    下一跳：数据报应该转发到的该地址。<br>    接口：确定将数据报发送到下一跳的网络接口（即选择从哪一个网络接口转发出去，如果转发系统也是IP数据报的发送方，也可以用于选择源IP地址）。</p>
-<pre><code>另外，使用一些路由协议来进行确保路由表的正确。总不能有环路吧。。。
-</code></pre><p>###2. IP转发行动<br>　　1。找匹配项<br>　　2。找最匹配项(mask中1的数量最多的一个条）<br>　　如果没有找到匹配的，则产生一个“主机不可达”的错误，通常会由ICMP返回给发送数据报的主机。<br>　　有时候也可能会找到多个相同的匹配，这时候可能会选择第一个匹配项，也可能会进行一些更复杂的路由平衡负载或者拆分流量等。
+</code></pre><h3 id="1-转发表信息："><a href="#1-转发表信息：" class="headerlink" title="1. 转发表信息："></a>1. 转发表信息：</h3><pre><code>目的地：默认路由可设置为0，完整的路由可设为完整长度的IP地址。
+掩码：与数据报目的IP地址按位与，然后与转发表条目中的目的地进行比较。
+下一跳：数据报应该转发到的该地址。 
+接口：确定将数据报发送到下一跳的网络接口（即选择从哪一个网络接口转发出去，如果转发系统也是IP数据报的发送方，也可以用于选择源IP地址）。
+
+另外，使用一些路由协议来进行确保路由表的正确。总不能有环路吧。。。
+</code></pre><h3 id="2-IP转发行动"><a href="#2-IP转发行动" class="headerlink" title="2. IP转发行动"></a>2. IP转发行动</h3><p>　　1。找匹配项<br>　　2。找最匹配项(mask中1的数量最多的一个条）<br>　　如果没有找到匹配的，则产生一个“主机不可达”的错误，通常会由ICMP返回给发送数据报的主机。<br>　　有时候也可能会找到多个相同的匹配，这时候可能会选择第一个匹配项，也可能会进行一些更复杂的路由平衡负载或者拆分流量等。
 　　</p>
-<p>###3. 两种交付方式：直接交付(所有系统使用相同的网络前缀)和间接交付p147</p>
-<pre><code>需要注意的是：间接交付中，需要把它交给路由器，这时候，IP地址对应着前面的源IP和目的IP，但是低层的地址是不对应的。低层地址决定了哪台机器在每跳的基础上接收包含数据报的帧!!!!
+<h3 id="3-两种交付方式：直接交付-所有系统使用相同的网络前缀-和间接交付p147"><a href="#3-两种交付方式：直接交付-所有系统使用相同的网络前缀-和间接交付p147" class="headerlink" title="3. 两种交付方式：直接交付(所有系统使用相同的网络前缀)和间接交付p147"></a>3. 两种交付方式：直接交付(所有系统使用相同的网络前缀)和间接交付p147</h3><pre><code>需要注意的是：间接交付中，需要把它交给路由器，这时候，IP地址对应着前面的源IP和目的IP，但是低层的地址是不对应的。低层地址决定了哪台机器在每跳的基础上接收包含数据报的帧!!!!
 
 这里，出现了一个“路由器的私有地址和公有地址”，需要进行一个地址转换。嗯。。如果从私有网络上把数据报发送到默认网关后，是需要一个NAT转换，把地址转化为公有地址，向外界隐藏了一些细节。
 而经过了NAT转化后转发把公有网络后，就不需要对它再进行NAT了，不过呢。这时候，它可能会存在多个默认路由器了。
@@ -576,7 +579,7 @@ tracert可以跟踪到一个目的地的路径。它使用的是UDP+ICMP。
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#IP协议"><span class="nav-number">1.</span> <span class="nav-text">IP协议</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#五、IP数据报的主机处理"><span class="nav-number">1.1.</span> <span class="nav-text">五、IP数据报的主机处理</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-主机模式：强主机模式和弱主机模式p152"><span class="nav-number">1.1.1.</span> <span class="nav-text">1. 主机模式：强主机模式和弱主机模式p152</span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#IP协议"><span class="nav-number">1.</span> <span class="nav-text">IP协议</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-尽力而为："><span class="nav-number">1.0.1.</span> <span class="nav-text">1. 尽力而为：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-无连接："><span class="nav-number">1.0.2.</span> <span class="nav-text">2. 无连接：</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二-IPV4和IPV6的头部"><span class="nav-number">1.1.</span> <span class="nav-text">二 IPV4和IPV6的头部</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#三、IPv6扩展头部"><span class="nav-number">1.2.</span> <span class="nav-text">三、IPv6扩展头部</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-IPv6选项："><span class="nav-number">1.2.1.</span> <span class="nav-text">1.  IPv6选项：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-其它IPv6扩展头部"><span class="nav-number">1.2.2.</span> <span class="nav-text">2. 其它IPv6扩展头部</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#2-分片头部的格式：p140"><span class="nav-number">1.2.2.1.</span> <span class="nav-text">2.分片头部的格式：p140</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-分片的过程："><span class="nav-number">1.2.2.2.</span> <span class="nav-text">3.分片的过程：</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#四、IP-转发"><span class="nav-number">1.3.</span> <span class="nav-text">四、IP 转发</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-转发表信息："><span class="nav-number">1.3.1.</span> <span class="nav-text">1. 转发表信息：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-IP转发行动"><span class="nav-number">1.3.2.</span> <span class="nav-text">2. IP转发行动</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-两种交付方式：直接交付-所有系统使用相同的网络前缀-和间接交付p147"><span class="nav-number">1.3.3.</span> <span class="nav-text">3. 两种交付方式：直接交付(所有系统使用相同的网络前缀)和间接交付p147</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#五、IP数据报的主机处理"><span class="nav-number">1.4.</span> <span class="nav-text">五、IP数据报的主机处理</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-主机模式：强主机模式和弱主机模式p152"><span class="nav-number">1.4.1.</span> <span class="nav-text">1. 主机模式：强主机模式和弱主机模式p152</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
